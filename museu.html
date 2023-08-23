@@ -10,12 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- js -->
+    <script src="js/script.js" defer></script><!-- js -->
     <title>Rota</title>
 </head>
 
 <body>
 
     <header class="relative">
+        <div class="flex justify-center items-center mt-3">
+            <img src="img/logo-rota-deitado-removebg-preview.png" alt="">
+        </div>
         <button class="fixed top-10 bg-purple-700 pl-5 pt-2 pb-2 pr-2 rounded-r-2xl text-2xl text-white cursor-pointer"
             id="btnMenuL"><i class="fa-solid fa-bars  "></i></button>
 
@@ -26,16 +31,22 @@
             <a href="" class=" text-white text-3xl"><i class="fa-solid fa-comment"></i></a>
 
         </div>
-
-        <div class="fixed h-screen border border-black w-52 z-10 bg-purple-700 hidden" id="menuLatera">
-
+        <!-- menulteral -->
+        <div class="fixed h-screen top-0 border-black w-52 z-10 bg-purple-700  flex flex-col hidden" id="menuLatera">
+            <button class="flex justify-end text-2xl p-3 text-white" id="btnCloseMenu"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <div class="flex flex-col items-center  gap-3">
+                <a href="/index.html" class=" text-white text-2xl"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="" class=" text-white text-2xl"><i class="fa-solid fa-magnifying-glass"></i> Maps</a>
+                <a href="" class=" text-white text-2xl"><i class="fa-solid fa-comment"></i> comentarios</a>
+            </div>
         </div>
 
     </header>
 
     <main class=" w-full  max-[500px]:pb-[6rem] gap-5">
 
-        <section class="flex fllex-col justify-center flex-wrap gap-4 border border-black mt-24 p-5">
+        <section class="flex fllex-col justify-center flex-wrap gap-4 border border-black mt-3 p-5">
             <h1 class="text-xl font-bold">SOBRE O LOCAL</h1>
             <p class="text-justify">O Museu de Pesca tem finalidades culturais e objetiva a divulgação de conhecimentos
                 originados do estudo
