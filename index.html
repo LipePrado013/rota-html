@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- js -->
+    <script src="js/script.js" defer></script>
+
+
+    <title>Rota</title>
+</head>
+
+<body class="">
+
+    <header class="relative">
+        <button class="fixed top-10 bg-purple-950 pl-5 pt-2 pb-2 pr-2 rounded-r-2xl text-2xl text-white cursor-pointer"
+            id="btnMenuL"><i class="fa-solid fa-bars  "></i></button>
+
+        <div class="bg-purple-950 w-screen h-20 fixed bottom-[-1px] flex justify-around items-center rounded-t-xl">
+
+            <a href="/index.html" class=" text-white text-3xl"><i class="fa-solid fa-house"></i></a>
+            <a href="" class=" text-white text-3xl"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="" class=" text-white text-3xl"><i class="fa-solid fa-comment"></i></a>
+
+        </div>
+
+        <div class="fixed h-screen  border-black w-52 z-10 bg-purple-700  flex flex-col hidden" id="menuLatera">
+            <button class="flex justify-end text-2xl p-3 text-white" id="btnCloseMenu"><i
+                    class="fa-solid fa-xmark"></i></button>
+            <div class="flex flex-col items-center  gap-3">
+                <a href="/index.html" class=" text-white text-2xl"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="" class=" text-white text-2xl"><i class="fa-solid fa-magnifying-glass"></i> Maps</a>
+                <a href="" class=" text-white text-2xl"><i class="fa-solid fa-comment"></i> comentarios</a>
+            </div>
+        </div>
+
+    </header>
+    <main class=" w-full max-[500px]:pb-[6rem] gap-7 ">
+
+        <section class="border flex flex-col w-screen mb-3 gap-5 mt-24">
+
+            <div class=" h-28 w-screen flex justify-end bg-purple-500">
+                <p>O Museu do café conta com seus historiadores a historia de Santos junto ao comércio do café, um
+                </p>
+                <img class="w-44" src="img/slide3.png">
+            </div>
+            <div class=" h-28 w-screen flex justify-end bg-purple-500">
+                <p>O Museu do café conta com seus historiadores a historia de Santos junto ao comércio do café, um</p>
+                <img class="w-44" src="img/slide4.png">
+            </div>
+        </section>
+
+        <section class="flex justify-evenly flex-wrap gap-4 ">
+            <div class=" p-3  w-[20rem] flex flex-col gap-3 justify-between bg-purple-500 rounded-xl">
+                <img class="border-[6px] border-purple-700" src="img/slide1.png" alt="">
+                <h1 class="font-bold">Museu do Café</h1>
+                <p>O Museu do café conta com seus historiadores a historia de Santos junto ao comércio do café, um
+                    inicio marcante pelas...</p>
+                <a class=" w-24 text-center rounded-xl bg-purple-700 text-white font-bold" href="/museu.html"> ver
+                    mais</a>
+            </div>
+            <div class=" p-3  w-[20rem] flex flex-col gap-3 justify-between bg-purple-500 rounded-xl">
+                <img src="img/slide3.png" alt="">
+                <h class="font-bold">Museu da pesca</h>
+                <p>O Museu do café conta com seus historiadores a historia de Santos junto ao comércio do café, um
+                    inicio marcante pelas...O Museu do café conta com seus historiadores a historia de Santos junto ao
+                    comércio do café, um inicio marcante pelas...</p>
+                <a class=" w-24 text-center rounded-xl bg-purple-700 text-white font-bold" href="/museu.html"> ver
+                    mais</a>
+
+            </div>
+
+        </section>
+
+        <section class="  overflow-hidden snap-mandatory mt-3 ">
+
+            <div class="flex h-40 w-[10000px]   snap-x ">
+
+                <div class="border border-black p-3 w-[150px] m-4">
+                    <img src="img/slide2.png">
+                </div>
+                <div class="border border-black p-3 w-[150px] m-4 ">
+                    <img src="img/slide2.png">
+                </div>
+                <div class="border border-black p-3 w-[150px] m-4 ">
+                    <img src="img/slide2.png">
+                </div>
+                <div class="border border-black p-3 w-[150px] m-4 ">
+                    <img src="img/slide2.png">
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+</body>
+
+</html>
